@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tetris game</title>
+    <link rel="stylesheet" href="style_index.css">
+
+</head>
+<body>
+    <div id="head_part">
+        <h1> Игра Tetris </h1>
+    </div>
+
+    <div id="left_part" class="part">
+        <h2 id="currentLevel"> Текущий уровень: 1</h2>
+        <h2 id="playerName"> Текущий игрок: </h2>
+        <h2 id="points"> Всего очков: 0</h2>
+        <div>
+            <h2> Следующая фигура: </h2>
+            <canvas id="figure_show" width="200" height="200">
+                <p>Ваш браузер не поддерживает рисование.</p>
+            </canvas>
+        </div>
+
+        <div id="description">
+            <h2>
+                Клавиши для управления:
+            </h2>
+            <p>
+                Стрелка влево - перемещение фигуры влево <br>
+                Стрелка вправо - перемещение фигуры вправо <br>
+                Стрелка вниз - "падение" фигуры <br>
+                Стрелка вверх - повернуть фигуру на 90 градусов по часовой стрелке <br>
+            </p>
+        </div>
+
+        <div id="tableRecords">
+            <h2>Таблица рекордов:</h2>
+        </div>
+    </div>
+
+    <div id="right_part" class="part">
+        <h2> Игровое поле </h2>
+        <canvas id="field" width="400" height="800">
+            <p>Ваш браузер не поддерживает рисование.</p>
+        </canvas>
+    </div>
+
+    <script type="text/javascript" src="../scripts/game.js"> </script>
+</body>
+</html>

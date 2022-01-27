@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Start page for tetris</title>
+    <link rel="stylesheet" href="style_start.css">
+</head>
+<body onload="fillInput()">
+    <div class="container">
+        <div id="head_part_start">
+            <h1> Игра Tetris </h1>
+        </div>
+
+        <div id="left_part_start" >
+            <form id="auth_form" action="index.html" method="get" >
+                <label id="form_label">
+                    Введите имя: <br>
+                    <input id="user_name" placeholder="Имя пользователя" required ><br>
+                </label>
+                <input id="enter_button" type="submit" value="Ввод" onclick="store()">
+            </form>
+
+        </div>
+    </div>
+
+    <script type="text/javascript" src="../scripts/start.js"> </script>
+</body>
+</html>

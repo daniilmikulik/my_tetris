@@ -1,0 +1,36 @@
+body {
+    font-family : Courier New, monospace;
+    background: url("../images/background_tetris.jpg");
+}
+
+#head_part, #left_part, #right_part{
+    position: absolute;
+}
+
+#head_part{
+    top: 10%;
+    left: 50%;
+}
+
+#left_part {
+    top: 20%;
+    left: 10%;
+}
+
+#right_part {
+    top: 20%;
+    right: 10%;
+}
+
+#figure_show, #field {
+    border: 2px solid black;
+    border-radius: 10px;
+    background: cornflowerblue;
+}
+
+#description {
+    border: 0 solid black;
+    border-radius: 10px;
+    background: cornflowerblue;
+    padding: 10px;
+}
